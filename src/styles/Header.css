@@ -1,0 +1,122 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #00B98B;
+    height: 40px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.socials{
+    display: flex;
+    width:10%;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 150px;
+    color: white;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:350px;
+    /* min-width: 300px; */
+    color: white;
+}
+.contacts  span{
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    .header{
+        /* flex-direction: row; */
+        justify-content: center;
+    }
+    .socials{
+        min-width: 200px;
+    }
+}
+/* * {
+    transition: all 0.3s ease;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+   
+}
+.allContacts {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+.social-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+    color: white;
+}
+.contact-info, .phone-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.auth-place {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.auth-place a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.auth-place a:hover {
+    color: #FBA00D;
+} */
+
+/* Responsive design */
+/* @media (max-width: 768px) {
+    .allContacts {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .auth-place {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+} */
+
+/* @media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    .allContacts {
+        width: 100%;
+    }
+    .social-info {
+        justify-content: center;
+        width: 100%;
+    }
+    .auth-place {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+} */

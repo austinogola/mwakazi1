@@ -1,0 +1,14 @@
+.Footer{
+    min-height: 300px;
+    background-color: #00B98B;
+    padding:20px;
+}
+
+.footerWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts{
+    
+}
